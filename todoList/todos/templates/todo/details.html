@@ -1,0 +1,9 @@
+{% include 'todo/header.html' %}
+
+<a href="{% url 'index' %}">Go Back</a>
+<h3>{{todo.title}}</h3>
+<p>{{todo.text}}</p>
+<br>
+<p>Created on {{todo.created_on}}</p>
+
+{% include 'todo/footer.html' %}

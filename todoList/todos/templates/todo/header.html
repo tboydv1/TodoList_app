@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% load static %}
+
+    <link rel="stylesheet", href="{% static 'css/style.css' %}">
+    <title>TodoApp</title>
+</head>
+<body>
+<header>
+    <h1>TodoList</h1>
+    <a href="{% url 'add' %}">Add</a>
+</header>
+<hr>
